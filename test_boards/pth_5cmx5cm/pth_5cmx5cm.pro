@@ -1,4 +1,4 @@
-update=3/2/2014 3:51:34 PM
+update=3/2/2014 5:11:44 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -53,10 +53,10 @@ LibName34=valves
 version=1
 LastNetListRead=
 UseCmpFile=1
-PadDrill=0.600000000000
-PadDrillOvalY=0.600000000000
-PadSizeH=1.500000000000
-PadSizeV=1.500000000000
+PadDrill=0.812800000000
+PadDrillOvalY=0.812800000000
+PadSizeH=2.209800000000
+PadSizeV=1.473200000000
 PcbTextSizeV=1.500000000000
 PcbTextSizeH=1.500000000000
 PcbTextThickness=0.300000000000
@@ -90,5 +90,6 @@ LibName17=led
 LibName18=dip_sockets
 LibName19=pga_sockets
 LibName20=valves
+LibName21=OSHW-logo
 [general]
 version=1
