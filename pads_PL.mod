@@ -1,11 +1,11 @@
-PCBNEW-LibModule-V1  3/15/2014 1:53:07 AM
+PCBNEW-LibModule-V1  3/15/2014 3:03:53 PM
 # encoding utf-8
 Units mm
 $INDEX
 pads
 $EndINDEX
 $MODULE pads
-Po 0 0 0 15 5323F8C8 00000000 ~~
+Po 0 0 0 15 5324B1DA 00000000 ~~
 Li pads
 Sc 0
 AR 
@@ -14,7 +14,7 @@ T0 2.54 -7.62 1 1 0 0.15 N I 21 N "pads"
 T1 10.16 -7.62 1 1 0 0.15 N I 21 N "VAL**"
 T2 6.35 6.35 0.762 0.762 0 0.1524 N V 21 N "(fits 0.01\" trace)"
 T2 6.35 -3.81 0.762 0.762 0 0.1524 N V 21 N "(fits 0.02\" trace)"
-T2 6.35 16.51 0.762 0.762 0 0.1524 N V 21 N "0.079\" pad, 0.050\" drill"
+T2 6.35 16.51 0.762 0.762 0 0.1524 N V 21 N "0.079\" pad, 0.056\" drill"
 T2 6.35 5.08 0.762 0.762 0 0.1524 N V 21 N "0.069\" pad, 0.040\" drill"
 T2 6.35 -5.08 0.762 0.762 0 0.1524 N V 21 N "0.059\" pad, 0.032\" drill"
 $PAD
@@ -103,42 +103,42 @@ Po 0 10.16
 $EndPAD
 $PAD
 Sh "16" R 2.0066 2.0066 0 0 0
-Dr 1.27 0 0
+Dr 1.4224 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 0 20.32
 $EndPAD
 $PAD
 Sh "17" C 2.0066 2.0066 0 0 0
-Dr 1.27 0 0
+Dr 1.4224 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2.54 20.32
 $EndPAD
 $PAD
 Sh "13" R 2.0066 3.0099 0 0 0
-Dr 1.27 0 0.50165
+Dr 1.4224 0 0.50165
 At STD N 00E0FFFF
 Ne 0 ""
 Po 5.08 20.32
 $EndPAD
 $PAD
 Sh "14" O 2.0066 3.0099 0 0 0
-Dr 1.27 0 0.50165
+Dr 1.4224 0 0.50165
 At STD N 00E0FFFF
 Ne 0 ""
 Po 7.62 20.32
 $EndPAD
 $PAD
 Sh "15" R 2.0066 4.0132 0 0 0
-Dr 1.27 0 0
+Dr 1.4224 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 10.16 20.32
 $EndPAD
 $PAD
 Sh "16" O 2.0066 4.0132 0 0 0
-Dr 1.27 0 0
+Dr 1.4224 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 20.32
