@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 3/14/2014 11:05:42 PM
+EESchema-LIBRARY Version 2.3  Date: 3/14/2014 11:05:25 PM
 #encoding utf-8
 #
 # 2N3904
@@ -165,8 +165,8 @@ ENDDEF
 # PNP_EBC
 #
 DEF PNP_EBC Q 0 0 Y Y 1 F N
-F0 "Q" 0 150 40 H V R CNN
-F1 "PNP_EBC" 0 -150 40 H V R CNN
+F0 "Q" 0 150 50 H V R CNN
+F1 "PNP_EBC" 0 -150 50 H V R CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
