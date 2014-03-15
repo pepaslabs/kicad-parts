@@ -13,9 +13,9 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 ## Pads
 
 * Ratios:
- * Size X: 1, Size Y: 1, Offset Y: 0
- * Size X: 1, Size Y: 1.5, Offset Y: 0.25
- * Size X: 1, Size Y: 2, Offset Y: 0
+ * **_A_**: Size X: 1, Size Y: 1, Offset Y: 0
+ * **_B_**: Size X: 1, Size Y: 1.5, Offset Y: 0.25
+ * **_C_**: Size X: 1, Size Y: 2, Offset Y: 0
 
 ### 0.060" nominal pads
 
@@ -44,8 +44,8 @@ Pads sized just under 0.070" (allows routing a 0.010" trace without violating DR
 Pads sized just under 0.080" (does not allow routing traces).
 
  * **_079A_**: Size X: 0.079", Size Y: 0.079", Offset Y: 0
- * **_079A_**: Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
- * **_079A_**: Size X: 0.079", Size Y: 0.158", Offset Y: 0
+ * **_079B_**: Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
+ * **_079C_**: Size X: 0.079", Size Y: 0.158", Offset Y: 0
 
 ## Footprints
 
