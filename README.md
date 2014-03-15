@@ -69,6 +69,8 @@ Drill size is 0.056", which is used for:
 
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png "DIP_PL.mod")
 
+![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png "transistors_PL.mod")
+
 ## License
 
 Parts which I have created are released under the [MIT License](http://opensource.org/licenses/MIT).  Parts which I have modified are subject to their original license.
