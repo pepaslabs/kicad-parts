@@ -27,6 +27,13 @@ Pads sized just under 0.060" (allows routing a 0.020" trace without violating DR
  * **_059B_**: Size X: 0.059", Size Y: 0.0885", Offset Y: 0.01475"
  * **_059C_**: Size X: 0.059", Size Y: 0.118", Offset Y: 0
 
+Drill size is 0.032" (the KiCAD default), which is used for:
+ * 1/4W resistors
+ * small signal diodes
+ * ceramic and small electrolytic capacitors
+ * DIP leads
+ * TO-92 leads
+
 ### 0.070" nominal pads
 
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/069_pads.png "0.069 pads")
@@ -37,6 +44,9 @@ Pads sized just under 0.070" (allows routing a 0.010" trace without violating DR
  * **_069B_**: Size X: 0.069", Size Y: 0.1035", Offset Y: 0.01725"
  * **_069C_**: Size X: 0.069", Size Y: 0.138", Offset Y: 0
 
+Drill size is 0.040", which is used for:
+ * TO-220 leads
+
 ### 0.080" nominal pads
 
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/079_pads.png "0.079 pads")
@@ -46,6 +56,10 @@ Pads sized just under 0.080" (does not allow routing traces).
  * **_079A_**: Size X: 0.079", Size Y: 0.079", Offset Y: 0
  * **_079B_**: Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
  * **_079C_**: Size X: 0.079", Size Y: 0.158", Offset Y: 0
+
+Drill size is 0.056", which is used for:
+ * TO-218 leads
+ * TO-247 leads
 
 ## Footprints
 
