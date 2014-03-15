@@ -65,11 +65,11 @@ Drill size is 0.056", which is used for:
 
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png "resistors_PL.mod")
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png "TO-220_PL.mod")
-
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png "DIP_PL.mod")
 
 ![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png "transistors_PL.mod")
+
+![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png "TO-220_PL.mod")
 
 ## License
 
