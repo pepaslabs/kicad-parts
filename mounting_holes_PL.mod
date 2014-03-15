@@ -1,9 +1,10 @@
-PCBNEW-LibModule-V1  3/14/2014 11:16:42 PM
+PCBNEW-LibModule-V1  3/11/2014 10:13:18 PM
 # encoding utf-8
 Units mm
 $INDEX
 1pin_025_05
 1pin_05_09
+TO-220V_05_08
 hole_M3
 $EndINDEX
 $MODULE 1pin_025_05
