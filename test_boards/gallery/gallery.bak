@@ -1,0 +1,257 @@
+EESchema Schematic File Version 2
+LIBS:transistors_PL
+LIBS:mounting_holes_PL
+LIBS:opto_PL
+LIBS:relays_PL
+LIBS:resistors_PL
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 27 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date "15 mar 2014"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L R_0W25 R?
+U 1 1 5323CBE8
+P 700 1050
+F 0 "R?" V 780 1050 40  0000 C CNN
+F 1 "R_0W25" V 707 1051 40  0000 C CNN
+F 2 "~" V 630 1050 30  0000 C CNN
+F 3 "~" H 700 1050 30  0000 C CNN
+	1    700  1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W25_1PCT R?
+U 1 1 5323CBF9
+P 1000 1050
+F 0 "R?" V 1080 1050 40  0000 C CNN
+F 1 "R_0W25_1PCT" V 1007 1051 40  0000 C CNN
+F 2 "~" V 930 1050 30  0000 C CNN
+F 3 "~" H 1000 1050 30  0000 C CNN
+	1    1000 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W5 R?
+U 1 1 5323CC08
+P 1300 1050
+F 0 "R?" V 1380 1050 40  0000 C CNN
+F 1 "R_0W5" V 1307 1051 40  0000 C CNN
+F 2 "~" V 1230 1050 30  0000 C CNN
+F 3 "~" H 1300 1050 30  0000 C CNN
+	1    1300 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_0W5_1PCT R?
+U 1 1 5323CC21
+P 1600 1050
+F 0 "R?" V 1680 1050 40  0000 C CNN
+F 1 "R_0W5_1PCT" V 1607 1051 40  0000 C CNN
+F 2 "~" V 1530 1050 30  0000 C CNN
+F 3 "~" H 1600 1050 30  0000 C CNN
+	1    1600 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1W R?
+U 1 1 5323CC30
+P 1900 1050
+F 0 "R?" V 1980 1050 40  0000 C CNN
+F 1 "R_1W" V 1907 1051 40  0000 C CNN
+F 2 "~" V 1830 1050 30  0000 C CNN
+F 3 "~" H 1900 1050 30  0000 C CNN
+	1    1900 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L R_1W_1PCT R?
+U 1 1 5323CC3F
+P 2200 1050
+F 0 "R?" V 2280 1050 40  0000 C CNN
+F 1 "R_1W_1PCT" V 2207 1051 40  0000 C CNN
+F 2 "~" V 2130 1050 30  0000 C CNN
+F 3 "~" H 2200 1050 30  0000 C CNN
+	1    2200 1050
+	1    0    0    -1  
+$EndComp
+Text Notes 700  700  0    60   ~ 0
+resistors_PL
+Text Notes 700  1700 0    60   ~ 0
+transistors_PL
+$Comp
+L 4N35 U?
+U 1 1 5323CCFD
+P 1000 3400
+F 0 "U?" H 745 3580 40  0000 L CNN
+F 1 "4N35" H 1260 3210 40  0000 R CNN
+F 2 "DIP6" H 745 3215 29  0000 L CNN
+F 3 "~" H 1000 3400 60  0000 C CNN
+	1    1000 3400
+	1    0    0    -1  
+$EndComp
+Text Notes 700  3100 0    60   ~ 0
+opto_PL
+$Comp
+L 817C U?
+U 1 1 5323CD26
+P 1850 3400
+F 0 "U?" H 1595 3580 40  0000 L CNN
+F 1 "817C" H 2105 3210 40  0000 R CNN
+F 2 "DIP4" H 1595 3215 29  0000 L CNN
+F 3 "~" H 1850 3400 60  0000 C CNN
+	1    1850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY_1_FORM_A K?
+U 1 1 5323CD50
+P 1000 4500
+F 0 "K?" H 750 4880 40  0000 L CNN
+F 1 "RELAY_1_FORM_A" H 1000 4115 40  0000 C CNN
+F 2 "~" H 995 4680 60  0000 C CNN
+F 3 "~" H 995 4680 60  0000 C CNN
+	1    1000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY_1_FORM_C K?
+U 1 1 5323CD5F
+P 1850 4500
+F 0 "K?" H 1600 4880 40  0000 L CNN
+F 1 "RELAY_1_FORM_C" H 1850 4115 40  0000 C CNN
+F 2 "~" H 1845 4680 60  0000 C CNN
+F 3 "~" H 1845 4680 60  0000 C CNN
+	1    1850 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 700  4000 0    60   ~ 0
+relays_PL
+$Comp
+L NPN_EBC Q?
+U 1 1 5323DE26
+P 950 2050
+F 0 "Q?" H 950 2200 40  0000 R CNN
+F 1 "NPN_EBC" H 950 1900 40  0000 R CNN
+F 2 "~" H 950 2050 60  0000 C CNN
+F 3 "~" H 950 2050 60  0000 C CNN
+	1    950  2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP_EBC Q?
+U 1 1 5323DE35
+P 950 2550
+F 0 "Q?" H 950 2700 40  0000 R CNN
+F 1 "PNP_EBC" H 950 2400 40  0000 R CNN
+F 2 "~" H 950 2550 60  0000 C CNN
+F 3 "~" H 950 2550 60  0000 C CNN
+	1    950  2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L NPN_CBE Q?
+U 1 1 5323DE44
+P 1500 2050
+F 0 "Q?" H 1500 2200 40  0000 R CNN
+F 1 "NPN_CBE" H 1500 1900 40  0000 R CNN
+F 2 "~" H 1500 2050 60  0000 C CNN
+F 3 "~" H 1500 2050 60  0000 C CNN
+	1    1500 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L PNP_CBE Q?
+U 1 1 5323DE53
+P 1500 2550
+F 0 "Q?" H 1500 2700 40  0000 R CNN
+F 1 "PNP_CBE" H 1500 2400 40  0000 R CNN
+F 2 "~" H 1500 2550 60  0000 C CNN
+F 3 "~" H 1500 2550 60  0000 C CNN
+	1    1500 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3904 Q?
+U 1 1 5323DE62
+P 2050 2050
+F 0 "Q?" H 2050 2200 40  0000 R CNN
+F 1 "2N3904" H 2050 1900 40  0000 R CNN
+F 2 "~" H 2050 2050 60  0000 C CNN
+F 3 "~" H 2050 2050 60  0000 C CNN
+	1    2050 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2N3906 Q?
+U 1 1 5323DE71
+P 2050 2550
+F 0 "Q?" H 2050 2700 40  0000 R CNN
+F 1 "2N3906" H 2050 2400 40  0000 R CNN
+F 2 "~" H 2050 2550 60  0000 C CNN
+F 3 "~" H 2050 2550 60  0000 C CNN
+	1    2050 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC550 Q?
+U 1 1 5323DE80
+P 2600 2050
+F 0 "Q?" H 2600 2200 40  0000 R CNN
+F 1 "BC550" H 2600 1900 40  0000 R CNN
+F 2 "~" H 2600 2050 60  0000 C CNN
+F 3 "~" H 2600 2050 60  0000 C CNN
+	1    2600 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L BC560 Q?
+U 1 1 5323DE8F
+P 2600 2550
+F 0 "Q?" H 2600 2700 40  0000 R CNN
+F 1 "BC560" H 2600 2400 40  0000 R CNN
+F 2 "~" H 2600 2550 60  0000 C CNN
+F 3 "~" H 2600 2550 60  0000 C CNN
+	1    2600 2550
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
