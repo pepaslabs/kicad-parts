@@ -17,13 +17,17 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
  * Size X: 1, Size Y: 1.5, Offset Y: 0.25
  * Size X: 1, Size Y: 2, Offset Y: 0
 * 0.1" spaced, allows 0.02" trace
- * Size X: 0.058", Size Y: 0.058", Offset Y: 0
- * Size X: 0.058", Size Y: 0.087", Offset Y: 0.0145"
- * Size X: 0.058", Size Y: 0.116", Offset Y: 0
+ * Size X: 0.059", Size Y: 0.059", Offset Y: 0
+ * Size X: 0.059", Size Y: 0.0885", Offset Y: 0.01475"
+ * Size X: 0.059", Size Y: 0.118", Offset Y: 0
 * 0.1" spaced, allows 0.01" trace
- * Size X: 0.068", Size Y: 0.068", Offset Y: 0
- * Size X: 0.068", Size Y: 0.102", Offset Y: 0.017"
- * Size X: 0.068", Size Y: 0.136", Offset Y: 0
+ * Size X: 0.069", Size Y: 0.069", Offset Y: 0
+ * Size X: 0.069", Size Y: 0.1035", Offset Y: 0.01725"
+ * Size X: 0.069", Size Y: 0.138", Offset Y: 0
+* 0.1" spaced, allows no trace
+ * Size X: 0.079", Size Y: 0.079", Offset Y: 0
+ * Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
+ * Size X: 0.079", Size Y: 0.158", Offset Y: 0
 
 ## Footprints
 
