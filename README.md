@@ -16,18 +16,36 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
  * Size X: 1, Size Y: 1, Offset Y: 0
  * Size X: 1, Size Y: 1.5, Offset Y: 0.25
  * Size X: 1, Size Y: 2, Offset Y: 0
-* 0.1" spaced, allows 0.02" trace
- * Size X: 0.059", Size Y: 0.059", Offset Y: 0
- * Size X: 0.059", Size Y: 0.0885", Offset Y: 0.01475"
- * Size X: 0.059", Size Y: 0.118", Offset Y: 0
-* 0.1" spaced, allows 0.01" trace
- * Size X: 0.069", Size Y: 0.069", Offset Y: 0
- * Size X: 0.069", Size Y: 0.1035", Offset Y: 0.01725"
- * Size X: 0.069", Size Y: 0.138", Offset Y: 0
-* 0.1" spaced, allows no trace
- * Size X: 0.079", Size Y: 0.079", Offset Y: 0
- * Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
- * Size X: 0.079", Size Y: 0.158", Offset Y: 0
+
+### 0.060" nominal pads
+
+![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/059_pads.png "0.059 pads")
+
+Pads sized just under 0.060" (allows routing a 0.020" trace without violating DRC).
+
+ * **_059A_**: Size X: 0.059", Size Y: 0.059", Offset Y: 0
+ * **_059B_**: Size X: 0.059", Size Y: 0.0885", Offset Y: 0.01475"
+ * **_059C_**: Size X: 0.059", Size Y: 0.118", Offset Y: 0
+
+### 0.070" nominal pads
+
+![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/069_pads.png "0.069 pads")
+
+Pads sized just under 0.070" (allows routing a 0.010" trace without violating DRC).
+
+ * **_069A_**: Size X: 0.069", Size Y: 0.069", Offset Y: 0
+ * **_069B_**: Size X: 0.069", Size Y: 0.1035", Offset Y: 0.01725"
+ * **_069C_**: Size X: 0.069", Size Y: 0.138", Offset Y: 0
+
+### 0.080" nominal pads
+
+![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/079_pads.png "0.079 pads")
+
+Pads sized just under 0.080" (does not allow routing traces).
+
+ * **_079A_**: Size X: 0.079", Size Y: 0.079", Offset Y: 0
+ * **_079A_**: Size X: 0.079", Size Y: 0.1185", Offset Y: 0.01975"
+ * **_079A_**: Size X: 0.079", Size Y: 0.158", Offset Y: 0
 
 ## Footprints
 
