@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  3/2/2014 7:03:07 PM
+PCBNEW-LibModule-V1  3/15/2014 2:49:52 PM
 # encoding utf-8
 Units mm
 $INDEX
@@ -6,7 +6,7 @@ G5LA-1
 G5LA-1A
 $EndINDEX
 $MODULE G5LA-1
-Po 0 0 0 15 5313D324 00000000 ~~
+Po 0 0 0 15 5324AE55 00000000 ~~
 Li G5LA-1
 Cd OMRON G5LA-1 1 Form C (SPDT) Relay, 10A
 Sc 0
@@ -34,7 +34,7 @@ Ne 0 ""
 Po 2 6
 $EndPAD
 $PAD
-Sh "3" C 2.3 2.3 0 0 0
+Sh "5" C 2.3 2.3 0 0 0
 Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
@@ -48,7 +48,7 @@ Ne 0 ""
 Po 14.2 -6
 $EndPAD
 $PAD
-Sh "5" C 2.5 2.5 0 0 0
+Sh "3" C 2.5 2.5 0 0 0
 Dr 1.5 0 0
 At STD N 00E0FFFF
 Ne 0 ""
@@ -56,7 +56,7 @@ Po 14.2 6
 $EndPAD
 $EndMODULE G5LA-1
 $MODULE G5LA-1A
-Po 0 0 0 15 5313D415 00000000 ~~
+Po 0 0 0 15 5324AED0 00000000 ~~
 Li G5LA-1A
 Cd OMRON G5LA-1A 1 Form A (SPST-NO) Relay, 10A
 Sc 0
@@ -77,14 +77,14 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $PAD
-Sh "5" C 2.3 2.3 0 0 0
+Sh "2" C 2.3 2.3 0 0 0
 Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
 Po 2 6
 $EndPAD
 $PAD
-Sh "2" C 2.3 2.3 0 0 0
+Sh "5" C 2.3 2.3 0 0 0
 Dr 1.3 0 0
 At STD N 00E0FFFF
 Ne 0 ""
@@ -95,7 +95,7 @@ Sh "3" C 2.5 2.5 0 0 0
 Dr 1.5 0 0
 At STD N 00E0FFFF
 Ne 0 ""
-Po 14.2 -6
+Po 14.2 6
 $EndPAD
 $EndMODULE G5LA-1A
 $EndLIBRARY
