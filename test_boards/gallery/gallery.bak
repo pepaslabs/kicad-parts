@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:connectors_PL
 LIBS:transistors_PL
 LIBS:mounting_holes_PL
 LIBS:opto_PL
@@ -34,13 +35,14 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:gallery-cache
 EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "15 mar 2014"
+Date "17 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -140,28 +142,6 @@ F 1 "817C" H 2105 3210 40  0000 R CNN
 F 2 "DIP4" H 1595 3215 29  0000 L CNN
 F 3 "~" H 1850 3400 60  0000 C CNN
 	1    1850 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L RELAY_1_FORM_A K?
-U 1 1 5323CD50
-P 1000 4500
-F 0 "K?" H 750 4880 40  0000 L CNN
-F 1 "RELAY_1_FORM_A" H 1000 4115 40  0000 C CNN
-F 2 "~" H 995 4680 60  0000 C CNN
-F 3 "~" H 995 4680 60  0000 C CNN
-	1    1000 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L RELAY_1_FORM_C K?
-U 1 1 5323CD5F
-P 1850 4500
-F 0 "K?" H 1600 4880 40  0000 L CNN
-F 1 "RELAY_1_FORM_C" H 1850 4115 40  0000 C CNN
-F 2 "~" H 1845 4680 60  0000 C CNN
-F 3 "~" H 1845 4680 60  0000 C CNN
-	1    1850 4500
 	1    0    0    -1  
 $EndComp
 Text Notes 700  4000 0    60   ~ 0
@@ -267,4 +247,39 @@ F 3 "~" H 750 7550 60  0000 C CNN
 $EndComp
 Text Notes 700  7350 0    60   ~ 0
 mounting_holes_PL
+$Comp
+L BARREL_JACK CON?
+U 1 1 53265935
+P 1100 5550
+F 0 "CON?" H 1100 5750 40  0000 C CNN
+F 1 "BARREL_JACK" H 1100 5400 40  0000 C CNN
+F 2 "~" H 1100 5550 60  0000 C CNN
+F 3 "~" H 1100 5550 60  0000 C CNN
+	1    1100 5550
+	1    0    0    -1  
+$EndComp
+Text Notes 700  5250 0    60   ~ 0
+connectors_PL
+$Comp
+L RELAY_1_FORM_A K?
+U 1 1 53265C18
+P 1000 4500
+F 0 "K?" H 750 4880 40  0000 L CNN
+F 1 "RELAY_1_FORM_A" H 1000 4110 40  0000 C CNN
+F 2 "~" H 995 4680 60  0000 C CNN
+F 3 "~" H 995 4680 60  0000 C CNN
+	1    1000 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L RELAY_1_FORM_C K?
+U 1 1 53265C27
+P 1750 4500
+F 0 "K?" H 1500 4880 40  0000 L CNN
+F 1 "RELAY_1_FORM_C" H 1750 4110 40  0000 C CNN
+F 2 "~" H 1745 4680 60  0000 C CNN
+F 3 "~" H 1745 4680 60  0000 C CNN
+	1    1750 4500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
