@@ -1,4 +1,6 @@
 EESchema Schematic File Version 2
+LIBS:displays_PL
+LIBS:regulators_PL
 LIBS:connectors_PL
 LIBS:transistors_PL
 LIBS:mounting_holes_PL
@@ -42,7 +44,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "17 mar 2014"
+Date "20 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -282,4 +284,85 @@ F 3 "~" H 1150 5550 60  0000 C CNN
 	1    1150 5550
 	1    0    0    -1  
 $EndComp
+$Comp
+L AMMETER_H DS?
+U 1 1 532A694E
+P 1700 5500
+F 0 "DS?" H 1750 5650 40  0000 L CNN
+F 1 "AMMETER_H" H 2550 5100 40  0000 R CNN
+F 2 "~" H 2530 5900 60  0000 C CNN
+F 3 "~" H 2530 5900 60  0000 C CNN
+	1    1700 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L AMMETER_V DS?
+U 1 1 532A695D
+P 2850 5500
+F 0 "DS?" H 2900 5650 40  0000 L CNN
+F 1 "AMMETER_V" H 3700 5100 40  0000 R CNN
+F 2 "~" H 3680 5900 60  0000 C CNN
+F 3 "~" H 3680 5900 60  0000 C CNN
+	1    2850 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L VOLTMETER DS?
+U 1 1 532A696C
+P 4000 5500
+F 0 "DS?" H 4050 5650 40  0000 L CNN
+F 1 "VOLTMETER" H 4850 5100 40  0000 R CNN
+F 2 "~" H 4830 5900 60  0000 C CNN
+F 3 "~" H 4830 5900 60  0000 C CNN
+	1    4000 5500
+	1    0    0    -1  
+$EndComp
+Text Notes 1650 5250 0    60   ~ 0
+displays_PL
+$Comp
+L 7805 U?
+U 1 1 532A6997
+P 1050 6500
+F 0 "U?" H 850 6660 40  0000 L BNN
+F 1 "7805" H 1250 6330 40  0000 R TNN
+F 2 "~" H 1050 6500 60  0000 C CNN
+F 3 "~" H 1050 6500 60  0000 C CNN
+	1    1050 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L 78L05 U?
+U 1 1 532A69B5
+P 1800 6500
+F 0 "U?" H 1600 6660 40  0000 L BNN
+F 1 "78L05" H 2000 6330 40  0000 R TNN
+F 2 "~" H 1800 6500 60  0000 C CNN
+F 3 "~" H 1800 6500 60  0000 C CNN
+	1    1800 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM317 U?
+U 1 1 532A69C4
+P 2550 6500
+F 0 "U?" H 2350 6660 40  0000 L BNN
+F 1 "LM317" H 2750 6330 40  0000 R TNN
+F 2 "~" H 2550 6500 60  0000 C CNN
+F 3 "~" H 2550 6500 60  0000 C CNN
+	1    2550 6500
+	1    0    0    -1  
+$EndComp
+$Comp
+L LM337 U?
+U 1 1 532A69D3
+P 3300 6500
+F 0 "U?" H 3100 6660 40  0000 L BNN
+F 1 "LM337" H 3500 6330 40  0000 R TNN
+F 2 "~" H 3300 6500 60  0000 C CNN
+F 3 "~" H 3300 6500 60  0000 C CNN
+	1    3300 6500
+	1    0    0    -1  
+$EndComp
+Text Notes 750  6250 0    60   ~ 0
+regulators_PL
 $EndSCHEMATC
