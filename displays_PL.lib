@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 3/19/2014 10:43:02 PM
+EESchema-LIBRARY Version 2.3  Date: 3/23/2014 6:16:43 PM
 #encoding utf-8
 #
 # Ammeter
@@ -109,6 +109,9 @@ F0 "DS" 50 150 40 H V L CNN
 F1 "Voltmeter" 850 -400 40 H V R CNN
 F2 "~" 830 400 60 H V C CNN
 F3 "~" 830 400 60 H V C CNN
+$FPLIST
+ DVM036A*
+$ENDFPLIST
 DRAW
 T 0 450 -200 30 0 0 0 Volts  Normal 0 C C
 S 50 100 850 -350 0 0 0 N
