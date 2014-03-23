@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:diodes_PL
 LIBS:switches_PL
 LIBS:capacitors_PL
 LIBS:displays_PL
@@ -424,6 +425,41 @@ F 1 "DP6T" H 5700 4450 40  0000 C CNN
 F 2 "~" H 5400 5500 60  0000 C CNN
 F 3 "~" H 5400 5500 60  0000 C CNN
 	1    5400 4500
+	1    0    0    -1  
+$EndComp
+Text Notes 4000 700  0    60   ~ 0
+diodes_PL
+$Comp
+L DIODE D?
+U 1 1 532F4AEC
+P 4200 950
+F 0 "D?" H 4200 1050 40  0000 C CNN
+F 1 "DIODE" H 4200 850 40  0000 C CNN
+F 2 "~" H 4200 950 60  0000 C CNN
+F 3 "~" H 4200 950 60  0000 C CNN
+	1    4200 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L SCHOTTKY D?
+U 1 1 532F4AFB
+P 4700 950
+F 0 "D?" H 4700 1050 40  0000 C CNN
+F 1 "SCHOTTKY" H 4700 850 40  0000 C CNN
+F 2 "~" H 4700 950 60  0000 C CNN
+F 3 "~" H 4700 950 60  0000 C CNN
+	1    4700 950 
+	1    0    0    -1  
+$EndComp
+$Comp
+L ZENER D?
+U 1 1 532F4B0A
+P 5200 950
+F 0 "D?" H 5200 1050 40  0000 C CNN
+F 1 "ZENER" H 5200 850 40  0000 C CNN
+F 2 "~" H 5200 950 60  0000 C CNN
+F 3 "~" H 5200 950 60  0000 C CNN
+	1    5200 950 
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
