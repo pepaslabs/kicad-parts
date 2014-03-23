@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:capacitors_PL
 LIBS:displays_PL
 LIBS:regulators_PL
 LIBS:connectors_PL
@@ -44,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "20 mar 2014"
+Date "23 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -365,4 +366,28 @@ F 3 "~" H 3300 6500 60  0000 C CNN
 $EndComp
 Text Notes 750  6250 0    60   ~ 0
 regulators_PL
+Text Notes 2900 700  0    60   ~ 0
+capacitors_PL
+$Comp
+L C_CER C?
+U 1 1 532F0423
+P 3000 1000
+F 0 "C?" H 3020 1060 30  0000 L BNN
+F 1 "C_CER" H 3020 940 30  0000 L TNN
+F 2 "~" H 3038 850 30  0000 C CNN
+F 3 "~" H 3000 1000 60  0000 C CNN
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C_EL C?
+U 1 1 532F0432
+P 3350 1000
+F 0 "C?" H 3370 1060 30  0000 L BNN
+F 1 "C_EL" H 3370 910 30  0000 L TNN
+F 2 "~" H 3388 850 30  0000 C CNN
+F 3 "~" H 3350 1000 60  0000 C CNN
+	1    3350 1000
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
