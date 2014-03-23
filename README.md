@@ -45,6 +45,7 @@ Pads sized just under 0.070" (allows routing a 0.010" trace without violating DR
  * **_069C_**: Size X: 0.069", Size Y: 0.138", Offset Y: 0
 
 Drill size is 0.040", which is used for:
+ * 1/2W resistors
  * TO-220 leads
 
 ### 0.080" nominal pads
