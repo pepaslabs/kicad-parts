@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:switches_PL
 LIBS:capacitors_PL
 LIBS:displays_PL
 LIBS:regulators_PL
@@ -388,6 +389,41 @@ F 1 "C_EL" H 3370 910 30  0000 L TNN
 F 2 "~" H 3388 850 30  0000 C CNN
 F 3 "~" H 3350 1000 60  0000 C CNN
 	1    3350 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L SPDT SW?
+U 1 1 532F106F
+P 2500 4300
+F 0 "SW?" H 2720 4400 40  0000 C CNN
+F 1 "SPDT" H 2780 4230 40  0000 C CNN
+F 2 "~" H 2880 4300 60  0000 C CNN
+F 3 "~" H 2880 4300 60  0000 C CNN
+	1    2500 4300
+	1    0    0    -1  
+$EndComp
+Text Notes 2450 4000 0    60   ~ 0
+switches_PL
+$Comp
+L SP6T SW?
+U 1 1 532F108A
+P 3600 4500
+F 0 "SW?" H 3900 4550 40  0000 C CNN
+F 1 "SP6T" H 3900 4450 40  0000 C CNN
+F 2 "~" H 3600 5500 60  0000 C CNN
+F 3 "~" H 3600 5500 60  0000 C CNN
+	1    3600 4500
+	1    0    0    -1  
+$EndComp
+$Comp
+L DP6T SW?
+U 1 1 532F1099
+P 5400 4500
+F 0 "SW?" H 5700 4550 40  0000 C CNN
+F 1 "DP6T" H 5700 4450 40  0000 C CNN
+F 2 "~" H 5400 5500 60  0000 C CNN
+F 3 "~" H 5400 5500 60  0000 C CNN
+	1    5400 4500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
