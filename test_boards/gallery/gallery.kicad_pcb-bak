@@ -1152,9 +1152,9 @@
     )
   )
 
-  (module BARREL_JACK (layer F.Cu) (tedit 5326573C) (tstamp 5326B595)
-    (at 33.02 149.86)
-    (descr "DC Barrel Jack")
+  (module BARREL_JACK_21x55 (layer F.Cu) (tedit 53265A16) (tstamp 5326BA7F)
+    (at 34.29 149.86)
+    (descr "DC Barrel Jack, 2.1x5.5mm")
     (tags "Power Jack")
     (path PWR-Jack)
     (fp_text reference CON*** (at -7.62 5.461) (layer F.SilkS)
@@ -1162,6 +1162,9 @@
     )
     (fp_text value BARREL_JACK (at -4.445 -5.334) (layer F.SilkS) hide
       (effects (font (size 1.016 1.016) (thickness 0.2032)))
+    )
+    (fp_text user 2.1x5.5mm (at -2.667 -3.556) (layer F.SilkS)
+      (effects (font (size 0.762 0.762) (thickness 0.1524)))
     )
     (fp_line (start -10.1981 -4.50088) (end -10.1981 4.50088) (layer F.SilkS) (width 0.381))
     (fp_line (start -13.69822 -4.50088) (end -13.69822 4.50088) (layer F.SilkS) (width 0.381))
