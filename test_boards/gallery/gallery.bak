@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:analog_ICs_PL
 LIBS:diodes_PL
 LIBS:switches_PL
 LIBS:capacitors_PL
@@ -47,7 +48,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "20 apr 2014"
+Date "4 may 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -493,6 +494,19 @@ F 1 "7812" H 2750 6330 40  0000 R TNN
 F 2 "~" H 2550 6500 60  0000 C CNN
 F 3 "~" H 2550 6500 60  0000 C CNN
 	1    2550 6500
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 1650 0    60   ~ 0
+analog_ICs_PL
+$Comp
+L XR-2206 U?
+U 1 1 5366539C
+P 3950 2450
+F 0 "U?" H 3675 3100 60  0000 C CNN
+F 1 "XR-2206" H 4225 1775 60  0000 C CNN
+F 2 "~" H 3950 2450 60  0000 C CNN
+F 3 "~" H 3950 2450 60  0000 C CNN
+	1    3950 2450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
