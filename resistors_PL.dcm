@@ -1,16 +1,16 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/27/2014 9:57:00 PM
+EESchema-DOCLIB  Version 2.0  Date: 5/4/2014 4:07:23 PM
 #
 $CMP POT
 D Potentionmeter
 K R
 $ENDCMP
 #
-$CMP POT_10t
+$CMP POT_10T
 D Potentionmeter, 10-turn
 K R
 $ENDCMP
 #
-$CMP POT_25t
+$CMP POT_25T
 D Potentionmeter, 25-turn
 K R
 $ENDCMP

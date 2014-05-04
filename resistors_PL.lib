@@ -1,11 +1,11 @@
-EESchema-LIBRARY Version 2.3  Date: 3/27/2014 9:57:00 PM
+EESchema-LIBRARY Version 2.3  Date: 5/4/2014 4:07:23 PM
 #encoding utf-8
 #
 # POT
 #
 DEF POT RV 0 40 Y N 1 F N
-F0 "RV" -175 85 30 H V C CNN
-F1 "POT" 195 -40 30 H V C CNN
+F0 "RV" -120 -80 30 H V C CNN
+F1 "POT" 120 -80 30 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 DRAW
