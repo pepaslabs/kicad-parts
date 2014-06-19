@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 5/4/2014 4:32:43 PM
+EESchema-LIBRARY Version 2.3  Date: 6/18/2014 9:29:12 PM
 #encoding utf-8
 #
 # C_CER
@@ -9,7 +9,7 @@ F1 "C_CER" 20 -60 30 H V L TNN
 F2 "~" 38 -150 30 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- C?
+ CERCAP*
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 ceramic  Normal 0 C C
