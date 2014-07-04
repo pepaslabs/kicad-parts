@@ -1,10 +1,11 @@
-PCBNEW-LibModule-V1  3/21/2014 9:14:14 PM
+PCBNEW-LibModule-V1  6/30/2014 10:18:00 PM
 # encoding utf-8
 Units mm
 $INDEX
 1pin_025_05
 1pin_05_09
 hole_M3
+hole_M3_NPTH
 $EndINDEX
 $MODULE 1pin_025_05
 Po 0 0 0 15 531FC89A 00000000 ~~
@@ -58,4 +59,22 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE hole_M3
+$MODULE hole_M3_NPTH
+Po 0 0 0 15 53B22845 00000000 ~~
+Li hole_M3_NPTH
+Cd M3 mounting hole (non plated through hole)
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N I 21 N "H***"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "Val**"
+DC 0 0 4.5 0 0.15 21
+$PAD
+Sh "" C 3.2 3.2 0 0 0
+Dr 3.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE hole_M3_NPTH
 $EndLIBRARY
