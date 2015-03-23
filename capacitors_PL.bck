@@ -1,11 +1,11 @@
-EESchema-DOCLIB  Version 2.0  Date: 5/4/2014 4:32:20 PM
+EESchema-DOCLIB  Version 2.0  Date: 6/18/2014 9:29:12 PM
 #
 $CMP C_CER
 D Ceramic capacitor
 $ENDCMP
 #
 $CMP C_EL
-D Capacitor, Electrolytic
+D Electrolytic capacitor
 $ENDCMP
 #
 $CMP C_FILM
