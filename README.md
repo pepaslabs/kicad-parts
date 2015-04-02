@@ -29,7 +29,7 @@ Pads sized just under 0.060" (allows routing a 0.020" trace without violating DR
 
 Drill size is 0.032" (the KiCAD default), which is used for:
  * 1/4W resistors
- * small signal diodes
+ * small signal diodes (e.g. 1N4148)
  * ceramic and small electrolytic capacitors
  * DIP leads
  * TO-92 leads
@@ -46,6 +46,7 @@ Pads sized just under 0.070" (allows routing a 0.010" trace without violating DR
 
 Drill size is 0.040", which is used for:
  * 1/2W resistors
+ * 1 Amp diodes (e.g. 1N4001)
  * TO-220 leads
 
 ### 0.080" nominal pads
@@ -61,6 +62,8 @@ Pads sized just under 0.080" (does not allow routing traces).
 Drill size is 0.056", which is used for:
  * TO-218 leads
  * TO-247 leads
+ * 3 Amp diodes (e.g. 1N5401)
+ * 6 Amp diodes (e.g. 6A05)
 
 ## Footprints
 
