@@ -1,9 +1,12 @@
-KiCADParts
-==========
+# KiCADParts
 
 A collection of KiCAD schematic symbols and component footprints which I have created / tweaked / used.
 
-## Design Constraints / Preferred Values / Conventions
+# PL_diodes.lib
+
+![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
+
+# Design Constraints / Preferred Values / Conventions
 
 * Label size X / size Y / thickness ratio: 1 / 1 / 0.2
  * Preferred component value label size X / size Y / thickness: 0.03" / 0.03" / 0.006"
@@ -64,10 +67,6 @@ Drill size is 0.056", which is used for:
  * TO-247 leads
  * 3 Amp diodes (e.g. 1N5401)
  * 6 Amp diodes (e.g. 6A05)
-
-## PL_diodes.lib
-
-![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
 
 ## Footprints
 
