@@ -2,7 +2,8 @@
 
 A collection of KiCAD schematic symbols and component footprints which I have created / tweaked / used.
 
-# PL_diodes.lib (and PL_diodes.dcm)
+# PL_diodes.lib
+(and PL_diodes.dcm)
 
 * DIODE
 * SCHOTTKY
