@@ -4,6 +4,10 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 # PL_diodes.lib
 
+* DIODE
+* SCHOTTKY
+* ZENER
+
 ![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
 
 # Design Constraints / Preferred Values / Conventions
