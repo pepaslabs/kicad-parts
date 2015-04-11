@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 4/1/2015 10:10:03 PM
+EESchema-LIBRARY Version 2.3  Date: 4/11/2015 8:45:34 AM
 #encoding utf-8
 #
 # DIODE
@@ -27,7 +27,7 @@ F1 "SCHOTTKY" 0 -100 40 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- DIODE_*
+ DIODE_*_PL
 $ENDFPLIST
 DRAW
 P 2 0 1 0  30 -50  30 -30 N
@@ -49,7 +49,7 @@ F1 "ZENER" 0 -100 40 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- DIODE_*
+ DIODE_*_PL
 $ENDFPLIST
 DRAW
 P 2 0 1 0  50 -50  30 -50 N
