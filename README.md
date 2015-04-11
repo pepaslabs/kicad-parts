@@ -11,6 +11,17 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 ![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
 
+# PL_diodes.mod
+
+* DIODE_SS_059_PL
+  * Small signal diode footprint
+    * e.g. 1N4148, 1N5711
+* DIODE_1A_069_PL
+  * 1 Amp diode footprint
+    * e.g. 1N4001, 1N5817
+
+![](/github%20media/Screen%20Shot%202015-04-11%20at%2011.07.05%20AM.png)
+
 # Design Constraints / Preferred Values / Conventions
 
 * Label size X / size Y / thickness ratio: 1 / 1 / 0.2
