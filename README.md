@@ -67,7 +67,7 @@ Drill size is 0.056", which is used for:
 
 ## PL_diodes.lib
 
-![](/github%20media/IMG_1758.JPG)
+![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
 
 ## Footprints
 
