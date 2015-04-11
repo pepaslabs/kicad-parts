@@ -6,21 +6,30 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 (and PL_diodes.dcm)
 
 * DIODE
+
+![](/github%20media/diode.png)
+
 * SCHOTTKY
+
+![](/github%20media/schottky.png)
+
 * ZENER
 
-![](/github%20media/Screen%20Shot%202015-04-11%20at%2010.26.25%20AM.png)
+![](/github%20media/zener.png)
 
 # PL_diodes.mod
 
 * DIODE_SS_059_PL
   * Small signal diode footprint
     * e.g. 1N4148, 1N5711
+
+![](/github%20media/diode_SS.png)
+
 * DIODE_1A_069_PL
   * 1 Amp diode footprint
     * e.g. 1N4001, 1N5817
 
-![](/github%20media/Screen%20Shot%202015-04-11%20at%2011.07.05%20AM.png)
+![](/github%20media/diode_1A.png)
 
 # Design Constraints / Preferred Values / Conventions
 
