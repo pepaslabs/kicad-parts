@@ -19,7 +19,7 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 ### 0.060" nominal pads
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/059_pads.png "0.059 pads")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/059_pads.png)
 
 Pads sized just under 0.060" (allows routing a 0.020" trace without violating DRC).
 
@@ -36,7 +36,7 @@ Drill size is 0.032" (the KiCAD default), which is used for:
 
 ### 0.070" nominal pads
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/069_pads.png "0.069 pads")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/069_pads.png)
 
 Pads sized just under 0.070" (allows routing a 0.010" trace without violating DRC).
 
@@ -51,7 +51,7 @@ Drill size is 0.040", which is used for:
 
 ### 0.080" nominal pads
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/079_pads.png "0.079 pads")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/079_pads.png)
 
 Pads sized just under 0.080" (does not allow routing traces).
 
@@ -71,13 +71,13 @@ Drill size is 0.056", which is used for:
 
 ## Footprints
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png "resistors_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png "DIP_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png "transistors_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png "TO-220_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png)
 
 ## License
 
