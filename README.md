@@ -65,15 +65,19 @@ Drill size is 0.056", which is used for:
  * 3 Amp diodes (e.g. 1N5401)
  * 6 Amp diodes (e.g. 6A05)
 
+## PL_diodes.lib
+
+![](/github%20media/IMG_1758.JPG)
+
 ## Footprints
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png "resistors_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png "resistors_PL.mod")
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png "DIP_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png "DIP_PL.mod")
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png "transistors_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png "transistors_PL.mod")
 
-![alt text](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png "TO-220_PL.mod")
+![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png "TO-220_PL.mod")
 
 ## License
 
