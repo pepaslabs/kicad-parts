@@ -95,8 +95,10 @@ Drill size is 0.056", which is used for:
 
 ## Naming Conventions
 
-* Files shall be prepended with PL_
-* 
+* All files (*.lib, *.dcm, *.mod) shall be prefixed with PL_
+  * e.g. PL_diodes.lib 
+* All footprint names shall be suffixed with _PL
+  * e.g. TO-220_PL 
 
 ## Footprints
 
