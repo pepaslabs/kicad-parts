@@ -1,7 +1,7 @@
-EESchema-DOCLIB  Version 2.0  Date: 5/4/2014 4:07:23 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/11/2015 11:04:18 AM
 #
 $CMP POT
-D Potentionmeter
+D Potentiometer
 K R
 $ENDCMP
 #
