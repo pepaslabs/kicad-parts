@@ -93,6 +93,13 @@ Drill size is 0.056", which is used for:
  * 3 Amp diodes (e.g. 1N5401)
  * 6 Amp diodes (e.g. 6A05)
 
+## Naming Conventions
+
+* All files (*.lib, *.dcm, *.mod) shall be prefixed with PL_
+  * e.g. PL_diodes.lib 
+* All footprint names shall be suffixed with _PL
+  * e.g. TO-220_PL 
+
 ## Footprints
 
 ![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png)
