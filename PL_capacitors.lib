@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: 8/2/2014 4:46:43 PM
+EESchema-LIBRARY Version 2.3  Date: 7/7/2014 2:30:28 AM
 #encoding utf-8
 #
 # C_CER
@@ -29,6 +29,8 @@ F2 "~" 38 -150 30 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
  ELCAP_*
+ BigCap*
+ MedCap*
 $ENDFPLIST
 DRAW
 A 0 -150 120 1316 483 0 0 20 N -80 -60 80 -60
@@ -47,9 +49,8 @@ F0 "C" 20 60 30 H V L BNN
 F1 "C_FILM" 20 -60 30 H V L TNN
 F2 "~" 38 -150 30 H V C CNN
 F3 "~" 0 0 60 H V C CNN
-ALIAS BOXCAP*
 $FPLIST
- C?
+ BOXCAP*
 $ENDFPLIST
 DRAW
 T 0 0 0 20 0 0 0 film  Normal 0 C C
