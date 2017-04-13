@@ -4,4 +4,9 @@ $CMP INA200
 D INA200 high side current shunt monitor
 $ENDCMP
 #
+#
+$CMP LTC2057_10
+D LTC2057, 10-pin version
+$ENDCMP
+#
 #End Doc Library

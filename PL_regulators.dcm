@@ -9,7 +9,15 @@ D +12V Linear Regulator
 $ENDCMP
 #
 $CMP 78L05
-D +5V Linear Regulator
+D +5V Linear Regulator (100mA)
+$ENDCMP
+#
+$CMP 7905
+D Negative Linear Regulator
+$ENDCMP
+#
+$CMP 79L05
+D -5V Linear Regulator (100mA)
 $ENDCMP
 #
 $CMP LM317
