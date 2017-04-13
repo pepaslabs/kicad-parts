@@ -7,15 +7,15 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 * DIODE
 
-![](/github%20media/diode.png)
+![](/.media/diode.png)
 
 * SCHOTTKY
 
-![](/github%20media/schottky.png)
+![](/.media/schottky.png)
 
 * ZENER
 
-![](/github%20media/zener.png)
+![](/.media/zener.png)
 
 # PL_diodes.mod
 
@@ -23,13 +23,13 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
   * Small signal diode footprint
     * e.g. 1N4148, 1N5711
 
-![](/github%20media/diode_SS.png)
+![](/.media/diode_SS.png)
 
 * DIODE_1A_069_PL
   * 1 Amp diode footprint
     * e.g. 1N4001, 1N5817
 
-![](/github%20media/diode_1A.png)
+![](/.media/diode_1A.png)
 
 # Design Constraints / Preferred Values / Conventions
 
@@ -47,7 +47,7 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 ### 0.060" nominal pads
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/059_pads.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/059_pads.png)
 
 Pads sized just under 0.060" (allows routing a 0.020" trace without violating DRC).
 
@@ -64,7 +64,7 @@ Drill size is 0.032" (the KiCAD default), which is used for:
 
 ### 0.070" nominal pads
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/069_pads.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/069_pads.png)
 
 Pads sized just under 0.070" (allows routing a 0.010" trace without violating DRC).
 
@@ -79,7 +79,7 @@ Drill size is 0.040", which is used for:
 
 ### 0.080" nominal pads
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/079_pads.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/079_pads.png)
 
 Pads sized just under 0.080" (does not allow routing traces).
 
@@ -102,13 +102,13 @@ Drill size is 0.056", which is used for:
 
 ## Footprints
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/resistors_PL_mod.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/resistors_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/DIP_PL_mod.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/DIP_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/transistors_PL_mod.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/transistors_PL_mod.png)
 
-![](https://raw.github.com/pepaslabs/KiCADParts/master/github%20media/TO-220_PL_mod.png)
+![](https://raw.github.com/pepaslabs/KiCADParts/master/.media/TO-220_PL_mod.png)
 
 ## License
 
