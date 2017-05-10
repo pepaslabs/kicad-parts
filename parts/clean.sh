@@ -2,4 +2,4 @@
 
 set -e
 
-rm -f *.bak *.bck
+rm -fv *.bak *.bck
