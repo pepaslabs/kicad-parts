@@ -28,7 +28,8 @@ Specify a line width of zero for the default line width (same width as the pins)
 
 ## Pcbnew
 
-* Preferred component value label (size X / size Y / thickness): 0.03" / 0.03" / 0.006"
+* Large component value label (size X / size Y / thickness): 0.04" / 0.04" / 0.008"
+* Common component value label (size X / size Y / thickness): 0.03" / 0.03" / 0.006"
 * Minimum component value label (size X / size Y / thickness): 0.025" / 0.025" / 0.005"
 
 ![](.media/pcbnew-footprint-text.png)
