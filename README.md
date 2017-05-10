@@ -43,7 +43,7 @@ Pins:
 
 Field reference and component name:
 
-![](.media/eeschema-field-reference.png)
+![](.media/eeschema-component-name.png)
 
 Part outlines:
 
