@@ -28,9 +28,14 @@ Specify a line width of zero for the default line width (same width as the pins)
 
 ## Pcbnew
 
- * Preferred component value label (size X / size Y / thickness): 0.03" / 0.03" / 0.006"
- * Minimum component value label (size X / size Y / thickness): 0.025" / 0.025" / 0.005"
-* Outline thickness: 0.01"
+* Preferred component value label (size X / size Y / thickness): 0.03" / 0.03" / 0.006"
+* Minimum component value label (size X / size Y / thickness): 0.025" / 0.025" / 0.005"
+
+![](.media/pcbnew-footprint-text.png)
+ 
+* Outline thickness: 0.010"
+
+![](.media/pcbnew-line-thickness.png)
 
 ## Pads
 
