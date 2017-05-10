@@ -2,35 +2,6 @@
 
 A collection of KiCAD schematic symbols and component footprints which I have created / tweaked / used.
 
-# PL_diodes.lib
-(and PL_diodes.dcm)
-
-* DIODE
-
-![](/.media/diode.png)
-
-* SCHOTTKY
-
-![](/.media/schottky.png)
-
-* ZENER
-
-![](/.media/zener.png)
-
-# PL_diodes.mod
-
-* DIODE_SS_059_PL
-  * Small signal diode footprint
-    * e.g. 1N4148, 1N5711
-
-![](/.media/diode_SS.png)
-
-* DIODE_1A_069_PL
-  * 1 Amp diode footprint
-    * e.g. 1N4001, 1N5817
-
-![](/.media/diode_1A.png)
-
 # Design Constraints / Preferred Values / Conventions
 
 * Label size X / size Y / thickness ratio: 1 / 1 / 0.2
@@ -41,6 +12,8 @@ Pins:
 
 ![](.media/eeschema-pins.png)
 
+![](.media/eeschema-pins-2.png)
+
 Field reference and component name:
 
 ![](.media/eeschema-component-name.png)
@@ -48,6 +21,10 @@ Field reference and component name:
 Part outlines:
 
 ![](.media/eeschema-part-outlines.png)
+
+Specify a line width of zero for the default line width (same width as the pins):
+
+![](.media/eeschema-zero-width-lines.png)
 
 ## Pcbnew
 
@@ -116,6 +93,35 @@ Drill size is 0.056", which is used for:
   * e.g. PL_diodes.lib 
 * All footprint names shall be suffixed with _PL
   * e.g. TO-220_PL 
+
+# PL_diodes.lib
+(and PL_diodes.dcm)
+
+* DIODE
+
+![](/.media/diode.png)
+
+* SCHOTTKY
+
+![](/.media/schottky.png)
+
+* ZENER
+
+![](/.media/zener.png)
+
+# PL_diodes.mod
+
+* DIODE_SS_059_PL
+  * Small signal diode footprint
+    * e.g. 1N4148, 1N5711
+
+![](/.media/diode_SS.png)
+
+* DIODE_1A_069_PL
+  * 1 Amp diode footprint
+    * e.g. 1N4001, 1N5817
+
+![](/.media/diode_1A.png)
 
 ## Footprints
 
