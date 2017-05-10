@@ -37,7 +37,13 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 
 ## Eeschema
 
+Pins:
 
+![](.media/eeschema-pins.png)
+
+Part outlines:
+
+![](.media/eeschema-part-outlines.png)
 
 ## Pcbnew
 
