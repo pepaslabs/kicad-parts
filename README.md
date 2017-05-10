@@ -34,8 +34,15 @@ A collection of KiCAD schematic symbols and component footprints which I have cr
 # Design Constraints / Preferred Values / Conventions
 
 * Label size X / size Y / thickness ratio: 1 / 1 / 0.2
- * Preferred component value label size X / size Y / thickness: 0.03" / 0.03" / 0.006"
- * Minimum component value label size X / size Y / thickness: 0.025" / 0.025" / 0.005"
+
+## Eeschema
+
+
+
+## Pcbnew
+
+ * Preferred component value label (size X / size Y / thickness): 0.03" / 0.03" / 0.006"
+ * Minimum component value label (size X / size Y / thickness): 0.025" / 0.025" / 0.005"
 * Outline thickness: 0.01"
 
 ## Pads
