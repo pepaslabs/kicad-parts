@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Fri 12 May 2017 11:30:28 PM CDT
+EESchema-LIBRARY Version 2.3  Date: Sat 20 May 2017 09:28:15 PM CDT
 #encoding utf-8
 #
 # INA200
@@ -175,7 +175,7 @@ F2 "~" 0 0 50 H V C CNN
 F3 "~" 0 0 50 H V C CNN
 ALIAS OP27 OP77 LT1001
 $FPLIST
- DIP*
+ DIP8*PL
 $ENDFPLIST
 DRAW
 P 4 0 1 10  -200 200  200 0  -200 -200  -200 200 f
