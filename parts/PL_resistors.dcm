@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0
+EESchema-DOCLIB  Version 2.0  Date: Wed 06 Sep 2017 08:56:13 PM CDT
 #
 $CMP POT
 D Potentiometer
@@ -23,6 +23,10 @@ $ENDCMP
 $CMP R_1W
 D Resistor 1W 5% Carbon Film
 K R DEV
+$ENDCMP
+#
+$CMP R_DIVIDER
+D Resistor divider
 $ENDCMP
 #
 $CMP R_FOIL
