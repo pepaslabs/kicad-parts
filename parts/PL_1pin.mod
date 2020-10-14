@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 29 Apr 2018 05:34:22 PM CDT
+PCBNEW-LibModule-V1  Wed 14 Oct 2020 06:01:37 AM CDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -12,6 +12,7 @@ $INDEX
 1pin_060_079
 1pin_08_12
 1pin_1_16
+TP_032_059
 Via_016
 Via_02
 $EndINDEX
@@ -186,6 +187,23 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE 1pin_1_16
+$MODULE TP_032_059
+Po 0 0 0 15 5F86DA68 00000000 ~~
+Li TP_032_059
+Cd Test point, 1 pin, 0.032" drill, 0.059" round pad
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -1.5 0.762 0.762 0 0.1524 N V 21 N "TP***"
+T1 0 2 0.762 0.762 0 0.1524 N I 21 N "Val**"
+$PAD
+Sh "1" O 1.4986 1.4986 0 0 0
+Dr 0.8128 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE TP_032_059
 $MODULE Via_016
 Po 0 0 0 15 5929337E 00000000 ~~
 Li Via_016

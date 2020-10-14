@@ -1,4 +1,4 @@
-PCBNEW-LibModule-V1  Sun 28 Jan 2018 08:15:42 AM CST
+PCBNEW-LibModule-V1  Wed 14 Oct 2020 05:11:30 AM CDT
 # encoding utf-8
 Units mm
 $INDEX
@@ -24,6 +24,7 @@ SIL-6
 SIL-7
 SIL-8
 SIL-9
+SJ1-3523N
 TERMINAL_BLOCK_2_5mm
 TERMINAL_BLOCK_3_5mm
 USB_B
@@ -1591,6 +1592,97 @@ Ne 0 ""
 Po 17.78 0
 $EndPAD
 $EndMODULE SIL-9
+$MODULE SJ1-3523N
+Po 0 0 0 15 5F86CEC8 00000000 ~~
+Li SJ1-3523N
+Cd 3.5mm TRS audio jack
+Kw CONN
+Sc 0
+AR /595D2EB3
+Op 0 0 0
+T0 8.5 7.5 0.762 0.762 0 0.1524 N V 21 N "J***"
+T1 6 0 0.762 0.762 900 0.1524 N I 21 N "SJ1-3523N"
+DS 0 6.5 10 6.5 0.254 21
+DS 0 -6.5 10 -6.5 0.254 21
+DS 0 -6.5 0 6.5 0.254 21
+DS 10 -6.5 10 6.5 0.254 21
+$PAD
+Sh "1" C 1.95 1.95 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 1 "N-000004"
+Po 3.5 0
+$EndPAD
+$PAD
+Sh "11" C 1.95 1.95 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.5 -2.5
+$EndPAD
+$PAD
+Sh "10" C 1.95 1.95 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.5 2.5
+$EndPAD
+$PAD
+Sh "3" C 1.95 1.95 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.5 -5
+$EndPAD
+$PAD
+Sh "2" C 1.95 1.95 0 0 0
+Dr 1.5 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 8.5 5
+$EndPAD
+$PAD
+Sh "" C 1.2 1.2 0 0 0
+Dr 1.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 3.5 -5
+$EndPAD
+$PAD
+Sh "" C 1.2 1.2 0 0 0
+Dr 1.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 -5
+$EndPAD
+$PAD
+Sh "" C 1.2 1.2 0 0 0
+Dr 1.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 8.5 0
+$EndPAD
+$PAD
+Sh "" C 1.2 1.2 0 0 0
+Dr 1.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 3.5 5
+$EndPAD
+$PAD
+Sh "" C 1.2 1.2 0 0 0
+Dr 1.2 0 0
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 1 5
+$EndPAD
+$SHAPE3D
+Na "pin_array/pins_array_5x2.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE SJ1-3523N
 $MODULE TERMINAL_BLOCK_2_5mm
 Po 0 0 0 15 5525C287 00000000 ~~
 Li TERMINAL_BLOCK_2_5mm
