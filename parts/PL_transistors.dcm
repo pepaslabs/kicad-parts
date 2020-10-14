@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Sun 11 Feb 2018 01:23:26 AM CST
+EESchema-DOCLIB  Version 2.0  Date: Tue 13 Oct 2020 09:29:38 PM CDT
 #
 $CMP 2N3904
 D 2N3904 NPN Transistor, 40V, 200mA
@@ -21,6 +21,10 @@ F transistors/bipolar/*.*
 $ENDCMP
 #
 $CMP NCH_GDS
+F transistors/mos/*.*
+$ENDCMP
+#
+$CMP NCH_SGD
 F transistors/mos/*.*
 $ENDCMP
 #

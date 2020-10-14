@@ -1,6 +1,10 @@
-EESchema-DOCLIB  Version 2.0  Date: Wed 27 Jun 2018 12:00:36 AM CDT
+EESchema-DOCLIB  Version 2.0  Date: Tue 13 Oct 2020 10:09:41 PM CDT
 #
 $CMP BARREL_JACK
+D DC Barrel Jack
+$ENDCMP
+#
+$CMP TRS35
 D DC Barrel Jack
 $ENDCMP
 #
