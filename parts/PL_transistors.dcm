@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 13 Oct 2020 09:29:38 PM CDT
+EESchema-DOCLIB  Version 2.0  Date: Sun 18 Oct 2020 08:16:34 AM CDT
 #
 $CMP 2N3904
 D 2N3904 NPN Transistor, 40V, 200mA
@@ -28,8 +28,8 @@ $CMP NCH_SGD
 F transistors/mos/*.*
 $ENDCMP
 #
-$CMP NPN_BCE_TO-220
-D NPN Transistor, BCE pinout, TO-220 case
+$CMP NPN_BCE
+D NPN Transistor, BCE pinout
 $ENDCMP
 #
 $CMP NPN_CBE
@@ -45,6 +45,10 @@ $ENDCMP
 $CMP NPN_ECB
 D NPN Transistor, ECB pinout
 F transistors/bipolar/*.*
+$ENDCMP
+#
+$CMP PCH_SGD
+F transistors/mos/*.*
 $ENDCMP
 #
 $CMP PNP_CBE

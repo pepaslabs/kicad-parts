@@ -1,8 +1,9 @@
-PCBNEW-LibModule-V1  Thu 25 May 2017 01:34:00 AM CDT
+PCBNEW-LibModule-V1  Sun 18 Oct 2020 10:40:21 AM CDT
 # encoding utf-8
 Units mm
 $INDEX
 EC2
+FTR-B3G
 G5LA-1
 G5LA-1A
 $EndINDEX
@@ -89,6 +90,76 @@ Ne 0 ""
 Po -6.35 -2.54
 $EndPAD
 $EndMODULE EC2
+$MODULE FTR-B3G
+Po 0 0 0 15 5F8C616E 00000000 ~~
+Li FTR-B3G
+Sc 0
+AR 
+Op 0 0 0
+T0 -5.5 0 0.762 0.762 900 0.1524 N V 21 N "FTR-B3G"
+T1 6.75 0 0.762 0.762 900 0.1524 N V 21 N "VAL**"
+DS -4.7 0 -4.7 -3.6 0.15 21
+DS -4.7 -3.6 5.9 -3.6 0.15 21
+DS 5.9 -3.6 5.9 3.2 0.15 21
+DS 5.9 3.2 -4.7 3.2 0.15 21
+DS -4.7 3.2 -4.7 0 0.15 21
+$PAD
+Sh "7" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 -3.7
+$EndPAD
+$PAD
+Sh "6" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.2 -3.7
+$EndPAD
+$PAD
+Sh "5" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.4 -3.7
+$EndPAD
+$PAD
+Sh "8" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.2 -3.7
+$EndPAD
+$PAD
+Sh "2" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 0 3.7
+$EndPAD
+$PAD
+Sh "3" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 2.2 3.7
+$EndPAD
+$PAD
+Sh "4" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po 4.4 3.7
+$EndPAD
+$PAD
+Sh "1" R 1 2.5 0 0 0
+Dr 0 0 0
+At SMD N 00888000
+Ne 0 ""
+Po -3.2 3.7
+$EndPAD
+$EndMODULE FTR-B3G
 $MODULE G5LA-1
 Po 0 0 0 15 5324AE55 00000000 ~~
 Li G5LA-1

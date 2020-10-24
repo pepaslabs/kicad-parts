@@ -1,4 +1,8 @@
-EESchema-DOCLIB  Version 2.0  Date: Tue 09 May 2017 09:40:53 PM CDT
+EESchema-DOCLIB  Version 2.0  Date: Sun 18 Oct 2020 07:03:51 PM CDT
+#
+$CMP ARDUINO_NANO
+D Arduino Nano
+$ENDCMP
 #
 $CMP ATMEGA328-P
 D PDIP28 Narrow, 16k Flash, 1kB SRAM, 512B EEPROM

@@ -1,4 +1,4 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/16/2014 9:09:21 PM
+EESchema-DOCLIB  Version 2.0  Date: Sun 18 Oct 2020 08:03:22 AM CDT
 #
 $CMP RELAY_1_FORM_A
 D Relay, 1 Form A (SPST-NO)
@@ -6,6 +6,14 @@ $ENDCMP
 #
 $CMP RELAY_1_FORM_C
 D Relay, 1 Form C (SPDT)
+$ENDCMP
+#
+$CMP RELAY_2_FORM_C
+D Relay, 2 Form C (DPDT)
+$ENDCMP
+#
+$CMP RELAY_2_FORM_C_DUALCOIL
+D Relay, 2 Form C (DPDT), Dual Coil
 $ENDCMP
 #
 #End Doc Library
