@@ -9,7 +9,7 @@ F1 "Feet" 0 -60 30 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- feet_*
+ PL_feet_*
 $ENDFPLIST
 DRAW
 C 0 0 31 0 1 0 N
@@ -25,7 +25,8 @@ F1 "Hole" 0 -60 30 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
 $FPLIST
- hole_*
+ PL_hole_*
+ PL_LCBSBM-*
 $ENDFPLIST
 DRAW
 C 0 0 31 0 1 0 N

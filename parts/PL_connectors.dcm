@@ -4,8 +4,4 @@ $CMP BARREL_JACK
 D DC Barrel Jack
 $ENDCMP
 #
-$CMP TRS35
-D DC Barrel Jack
-$ENDCMP
-#
 #End Doc Library

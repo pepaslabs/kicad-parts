@@ -25,19 +25,19 @@ D Chopper opamp
 $ENDCMP
 #
 $CMP NE5532
-D Dual opamp (low noise)
+D Dual opamp (audio)
 $ENDCMP
 #
 $CMP OP07
-D Single opamp
+D Single opamp (precision)
 $ENDCMP
 #
 $CMP TL072
-D Low-Noise Dual Op amp (low power)
+D Dual opamp (FET input)
 $ENDCMP
 #
 $CMP TL082
-D Wide Bandwidth Dual Op amp (Cmos)
+D Dual opamp (FET input)
 $ENDCMP
 #
 #End Doc Library
