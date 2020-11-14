@@ -7,7 +7,7 @@ PL_1pin_032_058
 PL_1pin_032_058_087o
 PL_1pin_032_058_116
 PL_1pin_040_069
-PL_1pin_040_069_strip_2_PL
+PL_1pin_040_069_strip_2
 PL_1pin_056_079
 PL_1pin_060_079
 PL_1pin_08_12
@@ -137,7 +137,7 @@ $EndPAD
 $EndMODULE PL_1pin_056_079
 $MODULE PL_1pin_060_079
 Po 0 0 0 15 5AE64856 00000000 ~~
-Li 1pin_060_079
+Li PL_1pin_060_079
 Cd 1 pin, 0.060" drill, 0.079" round pad
 Sc 0
 AR 1pin

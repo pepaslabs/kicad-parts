@@ -2,11 +2,11 @@ PCBNEW-LibModule-V1  3/15/2014 3:03:53 PM
 # encoding utf-8
 Units mm
 $INDEX
-pads
+PL_pads
 $EndINDEX
-$MODULE pads
+$MODULE PL_pads
 Po 0 0 0 15 5324B1DA 00000000 ~~
-Li pads
+Li PL_pads
 Sc 0
 AR 
 Op 0 0 0
@@ -143,5 +143,5 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 12.7 20.32
 $EndPAD
-$EndMODULE pads
+$EndMODULE PL_pads
 $EndLIBRARY

@@ -2,17 +2,17 @@ PCBNEW-LibModule-V1  Sun 17 Dec 2017 02:53:36 AM CST
 # encoding utf-8
 Units mm
 $INDEX
-1pin_025_05
-1pin_05_09
-LCBSBM-4-01A-RT
-hole_15
-hole_M3
-hole_M3_2
-hole_M3_NPTH
+PL_1pin_025_05
+PL_1pin_05_09
+PL_LCBSBM-4-01A-RT
+PL_hole_15
+PL_hole_M3
+PL_hole_M3_2
+PL_hole_M3_NPTH
 $EndINDEX
-$MODULE 1pin_025_05
+$MODULE PL_1pin_025_05
 Po 0 0 0 15 531FC89A 00000000 ~~
-Li 1pin_025_05
+Li PL_1pin_025_05
 Kw DEV
 Sc 0
 AR 1pin
@@ -26,10 +26,10 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE 1pin_025_05
-$MODULE 1pin_05_09
+$EndMODULE PL_1pin_025_05
+$MODULE PL_1pin_05_09
 Po 0 0 0 15 531FC949 00000000 ~~
-Li 1pin_05_09
+Li PL_1pin_05_09
 Kw DEV
 Sc 0
 AR 1pin
@@ -43,10 +43,10 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE 1pin_05_09
-$MODULE LCBSBM-4-01A-RT
+$EndMODULE PL_1pin_05_09
+$MODULE PL_LCBSBM-4-01A-RT
 Po 0 0 0 15 550B9868 00000000 ~~
-Li LCBSBM-4-01A-RT
+Li PL_LCBSBM-4-01A-RT
 Cd Self-adhesive snap-lock board support
 Sc 0
 AR /550A7E8B
@@ -59,10 +59,10 @@ DS -12.7 -12.7 12.7 -12.7 0.15 24
 DS 12.7 -12.7 12.7 12.7 0.15 24
 DS 12.7 12.7 -12.7 12.7 0.15 24
 DS -12.7 12.7 -12.7 -12.7 0.15 24
-$EndMODULE LCBSBM-4-01A-RT
-$MODULE hole_15
+$EndMODULE PL_LCBSBM-4-01A-RT
+$MODULE PL_hole_15
 Po 0 0 0 15 5A363053 00000000 ~~
-Li hole_15
+Li PL_hole_15
 Cd 0.15" mounting hole
 Sc 0
 AR 1pin
@@ -76,10 +76,10 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE hole_15
-$MODULE hole_M3
+$EndMODULE PL_hole_15
+$MODULE PL_hole_M3
 Po 0 0 0 15 5929070A 00000000 ~~
-Li hole_M3
+Li PL_hole_M3
 Cd M3 mounting hole
 Sc 0
 AR 1pin
@@ -94,10 +94,10 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE hole_M3
-$MODULE hole_M3_2
+$EndMODULE PL_hole_M3
+$MODULE PL_hole_M3_2
 Po 0 0 0 15 59290722 00000000 ~~
-Li hole_M3_2
+Li PL_hole_M3_2
 Cd M3 mounting hole
 Sc 0
 AR 1pin
@@ -112,10 +112,10 @@ At STD N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE hole_M3_2
-$MODULE hole_M3_NPTH
+$EndMODULE PL_hole_M3_2
+$MODULE PL_hole_M3_NPTH
 Po 0 0 0 15 59290738 00000000 ~~
-Li hole_M3_NPTH
+Li PL_hole_M3_NPTH
 Cd M3 mounting hole (non plated through hole)
 Sc 0
 AR 1pin
@@ -130,5 +130,5 @@ At HOLE N 00E0FFFF
 Ne 0 ""
 Po 0 0
 $EndPAD
-$EndMODULE hole_M3_NPTH
+$EndMODULE PL_hole_M3_NPTH
 $EndLIBRARY
