@@ -6,6 +6,7 @@ PL_1pin_025_05
 PL_1pin_05_09
 PL_LCBSBM-4-01A-RT
 PL_hole_15
+PL_hole_25_1
 PL_hole_M3
 PL_hole_M3_2
 PL_hole_M3_NPTH
@@ -77,6 +78,23 @@ Ne 0 ""
 Po 0 0
 $EndPAD
 $EndMODULE PL_hole_15
+$MODULE PL_hole_25_1
+Po 0 0 0 15 62B8F8DF 00000000 ~~
+Li PL_hole_25_1
+Cd 0.25"x0.1" mounting hole
+Sc 0
+AR 1pin
+Op 0 0 0
+T0 0 -3.048 1.016 1.016 0 0.254 N I 21 N "H***"
+T1 0 2.794 1.016 1.016 0 0.254 N I 21 N "Val**"
+$PAD
+Sh "" O 6.35 2.54 0 0 0
+Dr 6.35 0 0 O 6.35 2.54
+At HOLE N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$EndMODULE PL_hole_25_1
 $MODULE PL_hole_M3
 Po 0 0 0 15 5929070A 00000000 ~~
 Li PL_hole_M3
